@@ -1,0 +1,107 @@
+*{
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+  }
+  
+.container{
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0,0, 0, 0.2);
+    width: 500px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;  
+    margin-top: 20px;
+    font-weight: bold;
+}
+.in{
+    margin-left: 40px;
+}
+input[type="text"]{
+    padding: 10px 25px 10px 15px;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 230px;
+}
+button{
+    padding: 8px;
+    margin-left: 5px;
+    border: none;
+    background-color: rgb(36, 227, 36);
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 1.5;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(36, 227, 36);
+
+}
+.options{
+    margin-left: 49px;
+    margin-top: 7px;
+}
+input[type="number"]{
+    padding: 8px 12px 8px 12px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+    border-radius: 10px;
+}
+input[type="checkbox"]{
+    accent-color: rgb(214, 21, 173);
+}
+.Clip{
+    margin-top: 20px;
+    text-align: center;
+}
+#clip{
+    background-color: rgb(46, 46, 205);
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    
+    width: 300px;
+}
+#clip:hover{
+    box-shadow: 0px 0px 15px hsla(240, 74%, 35%, 0.341);
+    
+    /* animation:Animi 3s linear infinite; */
+   
+}
+@keyframes Animi {
+    
+    from {background-color:rgb(4, 255, 0);}
+    to {background-color: hsl(132, 81%, 51%);}
+}
+i{
+    padding-right: 8px;
+}
+h1{
+    text-align: center;
+}
+#Status{
+    margin-left: 50px;
+}
+#status{
+    background-color: red;
+    width: 150px;
+    cursor: none;
+    
+}
+#status:hover{
+    box-shadow: 0px 0px 0px 0px ;
+   
+}
+input::selection{
+    background-color: whitesmoke;
+    
+}
+#Mode{
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: black;
+    color: whitesmoke;
+}
